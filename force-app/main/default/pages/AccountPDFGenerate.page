@@ -1,0 +1,8 @@
+<apex:page standardController="Account"  extensions="AttachmentPDFController" renderAs="pdf">
+    <h1>Account Data</h1>
+    <p><b>Id :</b> {!accObj.Id}</p>
+    <p><b>Name :</b> {!accObj.Name}</p>
+    <p><b>Phone :</b> {!accObj.Phone}</p>
+    <p><b>Description :</b> {!accObj.Description}</p>
+    <p><b>Rating :</b> {!accObj.Rating}</p>
+</apex:page>
